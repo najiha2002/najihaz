@@ -1,0 +1,32 @@
+.navbar {
+  background-color: var(--navy-translucent2); 
+  color: var(--lightest-slate);
+  font-family: 'NTR';
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out; /* Smooth transition */
+  backdrop-filter: blur(5px); /* Optional: Add blur for modern translucent effect */
+  -webkit-backdrop-filter: blur(5px); /* For Safari */
+}
+
+
+  .navbar-light .navbar-brand  {
+    color: var(--lightest-slate) !important;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: var(--lightest-slate) !important;
+  }
+
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: var(--green-bright) !important;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .navbar-light .navbar-brand  {
+        display: none;
+    }
+  
+    .navbar-light .navbar-nav.me-auto .nav-link {
+        display: none;
+      }
+  }
