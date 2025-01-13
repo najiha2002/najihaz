@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/najihaz/static/css/main.e2ec9276.css",
-    "main.js": "/najihaz/static/js/main.e474f12b.js",
+    "main.css": "/najihaz/static/css/main.0b0b7583.css",
+    "main.js": "/najihaz/static/js/main.9508f122.js",
     "index.html": "/najihaz/index.html",
-    "main.e2ec9276.css.map": "/najihaz/static/css/main.e2ec9276.css.map",
-    "main.e474f12b.js.map": "/najihaz/static/js/main.e474f12b.js.map"
+    "main.0b0b7583.css.map": "/najihaz/static/css/main.0b0b7583.css.map",
+    "main.9508f122.js.map": "/najihaz/static/js/main.9508f122.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2ec9276.css",
-    "static/js/main.e474f12b.js"
+    "static/css/main.0b0b7583.css",
+    "static/js/main.9508f122.js"
   ]
 }
