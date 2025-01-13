@@ -21,12 +21,12 @@ class About extends React.Component {
       <p>
         I am currently a <b>Junior Technical Consultant</b> at
         <a href="https://www.napier.ai/"> Napier</a>, working in the Anti Money Laundering (AML) industry. Recently, I just wrapped up my <b> Bachelor's degree</b> in <b>Computer Science </b>at{" "}
-        <a href="https://www.ox.ac.uk/about">Universiti Teknologi PETRONAS</a>.
+        <a href="https://www.utp.edu.my/">Universiti Teknologi PETRONAS</a>.
       </p>
     );
     const two = (
       <p>
-        Outside of work, I'm interested in travelling to taste different cultures - with my handy dandy camera(s) along. I also enjoy brisk walking. 
+        Outside of work, I'm interested in travelling to taste different cultures - with my handy dandy camera(s) along. I also enjoy brisk walking!
       </p>
     );
 

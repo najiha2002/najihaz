@@ -69,8 +69,9 @@ const JobList = () => {
       jobTitle: "Junior Technical Consultant @",
       duration: "JAN 2025 - PRESENT",
       desc: [
-        "Led development of end-to-end region build automation across Route 53 (AWS's DNS web service).  This enabled the launch of customer-facing global services in new regions within a day, a significant reduction from the previous time-frame of a month.",
-        "Re-built Route 53's core domain management and DNS systems to provide a better user experience to millions of customers.",
+        "Collaborated with clients to design and implement data integrations, transformations, and system customizations using JSON/XML and ETL tools such as Apache NiFi.",
+        "Leveraged Elasticsearch to index and query large datasets for client solutions as part of data processing pipelines.",
+        "Gained experience with API design, cloud platforms (Azure), and integration patterns, including event-driven systems.",
       ],
     },
 
@@ -78,25 +79,28 @@ const JobList = () => {
       jobTitle: "Coding Tutor @",
       duration: "MAR 2024 - PRESENT",
       desc: [
-        "Developed interactive and neural-activation technologies to stimulate physical and cognitive functions in order to slow the progression of neurodegenerative disorders.",
-        "Leveraged WebRTC to develop and maintain a Node.js online video-streaming platform in real-time competitive-mode games to research the effects of active stimulation for those suffering from dementia.",
+        "Delivered coding lessons (Python, Web Development) covering foundational concepts to advanced topics such as data analysis techniques and web-game development to more than 20 students across diverse age groups (adolescents and adults)",
+        "Accumulated an average of 9 teaching hours per week in leading structured lessons focused on data structures, algorithms, web development and Python data analysis libraries such as Pandas, NumPy, and Matplotlib and Seaborn.",
+        "Successfully helped 80% of students complete personal Python projects, specifically tailored to data analytics.",
       ],
     },
     Hilti: {
       jobTitle: "IT Business Analyst Intern @",
       duration: "MAY 2020 - APR 2021",
       desc: [
-        "Developed a responsive React web page (the new Story Details) from scratch, both on client and server side, for an app with massive scale (2 billion daily requests).",
-        "Iteratively built web experiences for 80 million users across high-traffic pages.",
-        "Collaborated with senior engineers and product management following best practices for the full software development life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations.",
+        "Performed customizations and tests in SAP S/4HANA Sales Distribution (SD) module for Hilti product sales and leasing applications, based on business requirements.",
+        "Collaborated with worldwide product owners and business stakeholders to define system requirements, prototype, and test custom solutions implemented in the Finance or Order-to-Cash domains.",
+        "Troubleshoot and resolved SD-related tickets in ServiceNow within SLAs, addressing issues from business users and cross-department members.",
+        "Contributed to projects like Digital Payments integration in Hilti Online Store, focusing on data reporting and analysis."
       ],
     },
     "CIEF Worldwide": {
-      jobTitle: "Research Engineer @",
+      jobTitle: "UI/UX Designer @",
       duration: "MAY 2021 - SEPT 2021",
       desc: [
-        "Developed and researched an NLP-based framework using state-of-the-art tools like Spacy and Stanza to facilitate the derivation of requirements from health data by leveraging syntactic dependencies, entity-recognition and rule-based match-making.",
-        "Application selected for DCS Research Award ($4,000) as part of the ”Visualizing Privacy Analysis Results” project led by Professor Marsha Chechik.",
+        "Evaluated user requirements and created user personas to ideate and improve the flow of 2 websites.",
+        "Provided aspects of visual and functional product design concepts like wireframes, flows, and mockups, that clearly illustrate how sites function by using Figma.",
+
       ],
     },
 
@@ -107,7 +111,7 @@ const JobList = () => {
   };
 
   return (
-    <Box sx={{ display: "flex", flexGrow: 1, height: 300, backgroundColor: "transparent" }}>
+    <Box sx={{ display: "flex", flexGrow: 1, backgroundColor: "transparent" }}>
       <Tabs
         orientation={!isHorizontal ? "vertical" : "horizontal"}
         variant={isHorizontal ? "fullWidth" : "scrollable"}

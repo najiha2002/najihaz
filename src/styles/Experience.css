@@ -3,6 +3,7 @@
     margin: auto;
     max-width: 1000px;
     padding-top: 100px;
+    display: flex;
   }
   
   .joblist-job-title {
@@ -78,7 +79,7 @@
     position: relative;
     padding-left: 30px;
     padding-bottom: 16px;
-    font-size: 18px;
+    font-size: 19px;
     color: var(--slate);
   }
   

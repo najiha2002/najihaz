@@ -2,11 +2,11 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import BorderColorIcon from "@mui/icons-material/BorderColor";
 import EmailRoundedIcon from "@mui/icons-material/EmailRounded";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import "../styles/NavBar.css";
+import PhotoCameraIcon from '@mui/icons-material/PhotoCamera';
 
 class NavBar extends React.Component {
   render() {
@@ -33,8 +33,8 @@ class NavBar extends React.Component {
               <Nav.Link href="https://www.linkedin.com/in/najiha-zaharuddin/" target="_blank">
                 <LinkedInIcon style={{ fontSize: 21 }}></LinkedInIcon>
               </Nav.Link>
-              <Nav.Link href="https://medium.com/@gazijarin.ai" target="_blank">
-                <BorderColorIcon style={{ fontSize: 20 }}></BorderColorIcon>
+              <Nav.Link href="/#comingsoon">
+                <PhotoCameraIcon style={{ fontSize: 20 }}></PhotoCameraIcon>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

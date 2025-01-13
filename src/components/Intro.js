@@ -29,7 +29,7 @@ const Intro = () => {
       <FadeInSection>
         <div className="intro-subtitle">I code sometimes.</div>
         <div className="intro-desc">
-          I'm a technical consultant from Kuala Lumpur, Malaysia. I'm big on the fields of technology, finance, global business and everything in between. When I get the chance, I also love to jump into design.
+          I'm a technical consultant from Kuala Lumpur, Malaysia. I'm big on the fields of technology, finance, global business and everything in between. When I get the chance, I also love to jump into design!
         </div>
 
         {/* Contact Link */}
