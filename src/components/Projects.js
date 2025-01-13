@@ -29,7 +29,7 @@ class Projects extends React.Component {
         techStack: "C# (UNITY)",
         link: "https://github.com/slakh96/no-mans-land",
         open: "https://gazijarin.itch.io/no-mans-land",
-        image: "/assets/nomansland.png"
+        image: "./najihaz/assets/nomansland.png"
       },
       Truth: {
         title: "truth",
@@ -38,7 +38,7 @@ class Projects extends React.Component {
         techStack: "JAVASCRIPT (THREE.JS)",
         link: "https://github.com/gazijarin/truth",
         open: "https://gazijarin.github.io/Truth/",
-        image: "/assets/truth.png"
+        image: "./najihaz/assets/truth.png"
       },
       "Tall Tales": {
         title: "tall tales",
@@ -47,7 +47,7 @@ class Projects extends React.Component {
         techStack: "NODE.JS (SOCKET.IO), REACT.JS, MONGODB",
         link: "https://github.com/gazijarin/TallTales",
         open: "https://talltales.herokuapp.com/",
-        image: "/assets/talltales.png"
+        image: "./najihaz/assets/talltales.png"
       },
       Portfolio: {
         title: "portfolio.js",
@@ -56,7 +56,7 @@ class Projects extends React.Component {
         techStack: "NODE.JS (EXPRESS.JS)",
         link: "https://github.com/gazijarin/Portfolio.js",
         open: "https://afternoon-ocean-92382.herokuapp.com/",
-        image: "/assets/portfolio.png"
+        image: "./najihaz/assets/portfolio.png"
       }
     };
     const projects = {

@@ -14,7 +14,7 @@ const Resume = () => {
                     <p className="resume-description">
                         Feel free to download my resume below!
                     </p>
-                    <a href="/resume.pdf"
+                    <a href="./najihaz/resume.pdf"
                     download="Najiha_Resume.pdf"
                     className="resume-button">
                         <span className="resume-icon"><FileDownloadIcon /></span>
