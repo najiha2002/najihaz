@@ -26,7 +26,7 @@ class About extends React.Component {
     );
     const two = (
       <p>
-        Outside of work, I'm interested in travelling to taste different cultures - with my handy dandy camera(s) along. I also enjoy brisk walking. 
+        HOutside of work, I'm interested in travelling to taste different cultures - with my handy dandy camera(s) along. I also enjoy brisk walking. 
       </p>
     );
 
