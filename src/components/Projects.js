@@ -43,7 +43,7 @@ class Projects extends React.Component {
       },
       "FruitPox": {
         desc:
-          "A Telegram bot that helps you excel on your daily tasks through Node NLP.",
+          "A machine learning model capable of classifying rotten vs fresh fruits for quality control purposes.",
         techStack: "Python, YOLOv8",
         link: "https://github.com/najiha2002/FruitPox",
         open: ""
